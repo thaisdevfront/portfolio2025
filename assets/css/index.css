@@ -1,6 +1,10 @@
 *{
     transition: 0.3s;
 }
+a {
+    color: rgb(255 255 255);
+    text-decoration: none;
+}
 nav.navbar.navbar-expand-lg.bg-body-tertiary {
         color: white !important;
         background-color: transparent !important;
@@ -106,6 +110,12 @@ textarea#msg {
     padding: 10px;
 }
 button {
+    padding: 10px 50px;
+    border-radius: 100px;
+    background-image: linear-gradient(to right top, #CE0BFF, #FF00A2, #FFEE00);
+    color: wheat;
+}
+a.button {
     padding: 10px 50px;
     border-radius: 100px;
     background-image: linear-gradient(to right top, #CE0BFF, #FF00A2, #FFEE00);
