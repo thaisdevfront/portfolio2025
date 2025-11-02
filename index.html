@@ -23,6 +23,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link  rel="stylesheet" href="assets/css/swiper.css" >
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GYYKKQ7CEB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-GYYKKQ7CEB');
+    </script>
 </head>
 
 
@@ -45,7 +54,7 @@
             <a class="nav-link  text-white" href="#competências">Competências</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-white" href="#skill">Experiências</a>
+            <a class="nav-link  text-white" href="#skill"hidden>Experiências</a>
           </li>
           <li class="nav-item">
             <a class="nav-link  text-white" href="#portfolio">Portfólio</a>
@@ -78,9 +87,11 @@
               </h5>
             <div class="row align-items-center pt-4 pb-4">
               <div class="col-md-6 col-xs-12">
-                <button class=""> <a  href="https://wa.me/5512981021517?text=Quero+falar+agora+com+especialista" target="_blank" rel="noopener noreferrer">Contratar agora</a> </button>
+                <button class=""> <a  href="https://wa.me/5512981021517?text=Quero+começar+agora+a+fazer+um+orçamento" target="_blank" rel="noopener noreferrer">Contratar agora</a> </button>
               </div>
-              
+              <div class="col-md-6 col-xs-12" hidden>
+                <a class="text-white" href="https://wa.me/5512981021517?text=Quero+falar+com+um+Especialista">Falar com Especialista</a>
+              </div>
     
             </div>
             </div>
@@ -489,7 +500,7 @@
         </div>
       </div>
   </div>
-    <div id="skill" class="experiência">
+    <div id="skill" class="experiência" hidden>
       <div class="container pt-5 pb-5">
         <div class="row">
           <div class="col-md-12">
@@ -783,6 +794,5 @@
     });
   </script>
 </body>
-
 
 </html>
