@@ -167,6 +167,13 @@ button.tablinks.active {
     a.navbar-brand {
         width: 40%;
     }
+    div#navbarSupportedContent {
+    height: 100vh;
+    text-align: center;
+    }
+    a.nav-link.text-white {
+        padding: 15%;
+    }
     
 br {
 display: none;
