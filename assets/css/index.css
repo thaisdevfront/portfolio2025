@@ -1,6 +1,18 @@
 *{
     transition: 0.3s;
 }
+.full {
+    background-image: url(../img/full.png);
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 90vh;
+}
+
+img.p-2 {
+    width: 25%;
+}
 .full-text {
   display: none; /* Começa oculto */
 }
@@ -41,7 +53,47 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
     font-size: 25px;
     margin-left: 25px;
 }
+
+.card p {
+    color: #ffffff;
+    margin: 0px;
+}
+.card {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid #FF069E;
+}
+
+
+button {
+    padding: 10px 20px !important;
+    background-color: #FF069E;
+    border-radius: 100px;
+    border: 0px;
+    width: 200px;
+    color: white;
+}
+button.tablinks.active {
+    border: 1px solid #FF069E;
+    background-color: transparent;
+    color: #FF069E !important;
+}
+
+
+
 @media (max-width:768px) {
+    button.navbar-toggler {
+    width: initial;
+}
+header {
+    position: absolute;
+    /* margin-bottom: 50px !important; */
+}
+.full {
+    
+    padding: 50px 10px;
+}
     
     br {
     display: none;
@@ -117,7 +169,7 @@ nav{
     /* background-repeat: no-repeat; */
     /* background-size: contain; */
     /* height: 80vh; */
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 
@@ -156,18 +208,18 @@ textarea#msg {
     width: 100%;
     padding: 10px;
 }
-button {
+/* button {
     padding: 10px 50px;
     border-radius: 100px;
     background-image: linear-gradient(to right top, #CE0BFF, #FF00A2, #FFEE00);
     color: wheat;
-}
-a.button {
+} */
+/* a.button {
     padding: 10px 50px;
     border-radius: 100px;
     background-image: linear-gradient(to right top, #CE0BFF, #FF00A2, #FFEE00);
-    color: wheat;
-}
+    color: rgb(255, 255, 255);
+} */
 /* form {
     align-items: center;
     display: flex
